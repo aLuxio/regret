@@ -1,0 +1,15 @@
+8
+KayoTick M P B 130 Lash 3 60 Torment 4 100
+Rariticuno S P A 120 2 Darken 2 40 BlackOut 4 90
+Rhinopony B L N 110 Trample 2 30 Skewer 4 90
+RainbowSlash N F W 60 Shine 1 20 Dash 3 60
+Valkysiren A M S 70 EnchantingSong 1 30 FlyBy 3 50
+Ponyta F W N 70 Kindle 1 10 Burninate 2 40
+TwilightPony P P X 80 Gallop 1 20  PlasmaBeam 4 80
+Pinkachu L B S 60 Zapu 1 10 PikaLunch 3 70
+5
+RainbowSlash Ponyta
+Pinkachu KayoTick
+Rariticuno TwilightPony
+Ponyta Valkysiren
+Valkysiren Ponyta
