@@ -1,0 +1,5 @@
+G G G 8 9 10
+P F P 1 6 8
+N N N 6 7 8
+F T Z 3 4 5
+X X X 0 0 0

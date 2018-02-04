@@ -1,0 +1,9 @@
+4
+KayoTick M P B 130 Lash 3 60 Torment 4 100
+Rhinopony B L N 110 Trample 2 30 Skewer 4 90
+Valkysiren A M S 70 EnchantingSong 1 30 FlyBy 3 50
+TwilightPony P P X 80 Gallop 1 20  PlasmaBeam 4 80
+3
+Rhinopony Valkysiren
+TwilightPony KayoTick
+Valkysiren TwilightPony
