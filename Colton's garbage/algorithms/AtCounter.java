@@ -19,9 +19,9 @@ public class AtCounter
 	public static void main(String[] args)
 	{
 		int[][] a = {{0, 3, 4, 4, 2, 9, 4},
-					 {4, 2, 4, 3, 2, 1, 8},
-					 {4, 4, 4, 4, 3, 5, 6},
-					 {2, 0, 4, 4, 4, 4, 5}};
+			     {4, 2, 4, 3, 2, 1, 8},
+			     {4, 4, 4, 4, 3, 5, 6},
+			     {2, 0, 4, 4, 4, 4, 5}};
 		System.out.println(count(a, 2, 2, a[2][2]));
 	}
 }
