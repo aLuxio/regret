@@ -1,7 +1,6 @@
-package algorithms;
-
 public class Knapsack
 {
+	//lol just use Math.max() I'm just a lazy boi
 	static int max(int a, int b)
 	{
 		return (a > b) ? a : b;
@@ -49,7 +48,7 @@ public class Knapsack
 	public static void main(String[] gimmeSomeSucc)
 	{
 		int[] val = {60, 100, 120};
-		int[] wt  =	{10, 20, 30};
+		int[] wt  = {10, 20, 30};
 		int W = 50;
 		int n = val.length;
 		System.out.println(recur(W, wt, val, n));
