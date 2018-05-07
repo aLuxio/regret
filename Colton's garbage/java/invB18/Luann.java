@@ -27,7 +27,7 @@ public class Luann
 			}
 			
 			char[][] mat = new char[maxY][maxX];
-			points.stream().forEach(x -> mat[x.y-1][x.x-1] = 'X');
+			points.stream().forEach(p -> mat[p.y-1][p.x-1] = 'X');
 			
 			//pretty much everything after this is formatting :(
 			for(int y=maxY-1; y>=0; y--)
