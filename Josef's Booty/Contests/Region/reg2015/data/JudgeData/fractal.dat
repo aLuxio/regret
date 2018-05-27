@@ -1,0 +1,72 @@
+5
+1 3
+X -> X X
+1 1
+X
+1 2
+X
+2 1
+X X
+1 1
+A -> A B
+1 5
+A
+3 3
+K -> L K Q
+Q -> T T Q
+T -> T L C
+2 3
+K T
+2 4
+T Q
+3 3
+T C Q
+6 5
+A -> O M
+J -> I
+F -> Z R
+I -> I F
+T -> I V F
+M -> I N
+4 4
+A J I T
+3 1
+F A N
+3 4
+L A Z
+1 3
+T
+3 3
+N T F
+10 10
+I -> S F
+S -> U I
+H -> D L V
+W -> Y D
+D -> W
+T -> T
+B -> R
+F -> S A D
+K -> U S
+Y -> Y G H
+3 1
+S Q I
+2 5
+L D
+2 4
+D K
+2 4
+A S
+4 2
+D A F G
+4 2
+H S Q Y
+4 1
+A D Y F
+1 5
+S
+4 3
+W D G R
+3 5
+H S G
+

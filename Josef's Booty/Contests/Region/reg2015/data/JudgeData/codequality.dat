@@ -1,0 +1,35 @@
+10
+1
+(map #(str "Hello " % "!" ) ["Ford" "Arthur" "Tricia"])
+3
+(apply map vector [[:a :b :c]
+                   [:d :e :f]
+                   [:g :h :i]])
+2
+def fib (cons 1 (cons 1
+    (lazy-seq (map + fib (rest  fib))))))
+1
+([})
+1
+([])
+9
+(defn bake
+  "Bakes a cake for a certain amount of time, returning a cake with a new
+  :tastiness level."
+  [pie temp time]
+  (assoc pie :tastiness
+         ((condp (* temp time) <
+           400 :burned
+           350 :perfect
+           300 :soggy)))
+1
+{
+3
+{
+]
+}
+1
+]
+2
+([][]{}()[]
+[()]{[]}())
