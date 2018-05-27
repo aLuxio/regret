@@ -1,0 +1,3 @@
+GBGGB
+GGBGB
+GGGB
