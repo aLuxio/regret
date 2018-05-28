@@ -1,0 +1,50 @@
+Some of these websites might share some common problems or consist of all of the same problems just hosted on a second website.
+Some of them might also be down so just don't do those ones.
+
+CSU   http://acm.csu.edu.cn/OnlineJudge/
+FZU   http://acm.fzu.edu.cn/
+HDU   http://acm.hdu.edu.cn/
+HIT   http://acm.hit.edu.cn/hoj/
+POJ   http://poj.org/
+SCU   http://cstest.scu.edu.cn/
+SGU   http://acm.sgu.ru/
+ZOJ   http://acm.zju.edu.cn/onlinejudge/
+HUST   http://acm.hust.edu.cn/
+NBUT   https://ac.2333.moe/
+URAL   http://acm.timus.ru/
+51Nod   https://www.51nod.com/
+HYSBZ   http://www.lydsy.com/JudgeOnline/
+UESTC   http://acm.uestc.edu.cn/
+HRBUST   http://acm.hrbust.edu.cn/
+Kattis   https://open.kattis.com/
+ACdream   http://acdream.info/
+AtCoder   https://atcoder.jp/
+EIJudge   http://acm.mipt.ru/judge/
+CodeChef   http://www.codechef.com/
+LeetCode   https://leetcode.com/
+CodeEval   https://www.codeeval.com/
+TopCoder   https://arena.topcoder.com/
+UVa Live   http://livearchive.onlinejudge.org/index.php
+CodinGame   https://www.codingame.com/start
+Dev Skill   https://www.devskill.com/
+HihoCoder   https://hihocoder.com/
+Z-Trening   http://www.codah.club/
+CS Academy   https://csacademy.com/
+Codeforces   http://codeforces.com/
+HackerRank   https://www.hackerrank.com/
+Open Judge   http://openjudge.cn/
+HackerEarth   https://www.hackerearth.com/
+ProjectEuler   https://projecteuler.net/
+Jan's LightOJ   http://lightoj.com/
+A2 Online Judge   https://a2oj.com/
+CodeForces-Gyms   http://codeforces.com/gyms/
+URI Online Judge   https://www.urionlinejudge.com.br/
+UVa Online Judge   http://uva.onlinejudge.org/
+AIZU Online Judge   http://judge.u-aizu.ac.jp/
+HKOI Online Judge   https://judge.hkoi.org/
+ProgrammingPraxis   https://programmingpraxis.com/
+Panda Online Judge   https://pandaoj.com/
+Timus Online Judge   https://timus.spatarel.ro/problemset.aspx
+Tsinghua Online Judge   https://dsa.cs.tsinghua.edu.cn/oj/
+Don Mills Online Judge   https://dmoj.ca/
+SPOJ Sphere Online Judge   http://www.spoj.com/
