@@ -6,4 +6,4 @@ Old packets can be found here: https://drive.google.com/open?id=1mIEoBNSwBYZISkZ
 
 If you haven't ever used GitHub before, just create an account and you can star this repository so you don't have to search for it in the future. Some code is commented and some is not, so if you have questions about a particular solution let us know or just go to the "Issues" tab at the top of the repository and do something.
 
-This repository not final and will grow as time progresses.
+This repository is not final and will grow as time progresses.
