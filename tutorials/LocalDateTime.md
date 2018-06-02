@@ -75,7 +75,7 @@ LocalTime time = LocalTime.of(0, 0);
 
 LocalDateTime newYear = LocalDateTime.of(date, time);
 System.out.println(newYear);
-newYear = newYear.plus
+newYear = newYear.plusHours(25);
 System.out.println(newYear);
 ```
 
