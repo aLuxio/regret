@@ -64,7 +64,7 @@ LocalTime time = LocalTime.of(0, 0);
 LocalDateTime newYear = LocalDateTime.of(date, time);
 ```
 
-Nice! The LocalDateTime classes have plus and minus methods for years, months, days, etc. So without further ado, let's add 25 hours to `newYear`.
+Nice! The LocalDateTime classes have plus and minus methods for years, months, days, etc. So without further ado, let's add 25 hours to `newYear`. All of these methods can be found in the documentation for each class, which will be included at the end of this article.
 
 ```
 // These two were the ones we made earlier
