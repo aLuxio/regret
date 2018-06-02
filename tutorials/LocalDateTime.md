@@ -1,5 +1,3 @@
-(((This tutorial is almost done, be patient, young one)))
-
 # LocalDateTime
 So you've come across a calendar problem in a packet and you immediately skip it because trying to do operations and calculations on calendars is scary. I have to parse a calendar and tell you what day of the week it is? Yeet, see ya later. That's hard as heck my guy.
 
@@ -75,7 +73,7 @@ LocalTime time = LocalTime.of(0, 0);
 
 LocalDateTime newYear = LocalDateTime.of(date, time);
 System.out.println(newYear);
-newYear = newYear.plusHours(25);
+newYear = newYear.plus
 System.out.println(newYear);
 ```
 
@@ -95,4 +93,59 @@ So you know how to use LocalDateTime, but since you're gonna be reading from fil
 
 > You expect me to write a parser for that garbage?
 
-If Josef didn't expose me to this nifty class I would. In fact, I learned about this because I actually *did* write a parser for that garbage. It made my code much longer than it should've been. Like, way longer.
+If Josef didn't expose me to this nifty class I would. In fact, I learned about this because I actually *did* write a parser for that garbage. It made my code much longer than it should've been. Like, way longer. If you're given a timestamp like the one above, then you're definitely gonna want to use DateTimeFormatter.
+
+This is where the `.parse()` methods in LocalDateTime come into play. There are two versions of the parse method. The first one reads the timestamp given in the output in the LocalDateTime section of this article (the one with the "T" separating the date and the time). The second is the one you're most likely gonna use the most. It takes in a CharSequence (just a string, don't worry about it) and a DateTimeFormatter object. The only method in DateTimeFormatter that we'll be using here is `.ofPattern()`, but there are some more useful built-in methods and such that you can look at in the API on your own time (links to all of the documentation will be at the bottom).
+
+`.ofPattern()` takes in a string notating the format of the timestamp. The DateTimeFormatter documentation has all of the different patterns you can use to parse timestamps, but I'll give you the most common ones here.
+
+```
+u/y:  Year/Year of era
+M:  Month (number) (1-12)
+L:  Month (text) (July)
+d:  Day of month
+E:  Day of week (Tuesday, Tue, T)
+a:  AM/PM
+h:  Hour in AM/PM (1-12)
+H:  Hour (0-23)
+m:  Minute of hour
+s:  Second of minute
+```
+
+> Okay that's fine and dandy, but how tf do I use this, B?
+
+Glad you asked. These characters are what we put into the `.ofPattern()` string to notate the timestamp. It's actually so simple you'll think there's more to it. If we take the timestamp I gave you at the beginning of this section and make a DateTimeFormatter object out of it, the instantiation would look something like this:
+
+`DateTimeFormatter format = DateTimeFormatter.ofPattern("M-d-y h:m a");`
+
+When you're parsing in a timestamp, you don't have to worry about the zeroes behind the values or multi-digit numbers, Java knows what to do. If you need to print a LocalDateTime object in a specific timestamp, then it get's a bit different, but first let's go into how to do that.
+
+To print a LocalDateTime object with a specific timestamp, then you'll use the `.format()` method. The format method takes in a DateTimeFormatter object, so if you made one like `format` above, you can just use it again instead of creating the object in the method call.
+
+```
+Example:
+LocalDateTime lol; //pretend it's instantiated
+System.out.println(lol.format(DateTimeFormatter("M-d-y"));
+```
+
+So to format my birthday timestamp into `Wednesday, August 4, 1999 07:45 PM`, we would do the following:
+```
+// Notice here I'm just placing the formatter right into the parse and format methods. That's because I'm gonna have two different
+// formatters anyway, so there's no point in making them outside.
+LocalDateTime birthday = LocalDateTime.parse(DateTimeFormatter("M-d-y h:m a"));
+System.out.println(birthday.format(DateTimeFormatter("EEEE, MMMM d, y hh:mm a")));
+
+Output:
+Wednesday, August 4, 1999 07:45 PM
+```
+
+> Wait, what's up with the four Es and Ms?
+
+Yeah, so while writing this I discovered that there's a little quirk with the text-based format patterns where if you just put one E or M, it will return the abbreviated version of its value ("Wed" instead of "Wednesday", "8" instead of "August"). So if you run into this problem in your programs, just keep adding on to them until it either works or throws an error.
+
+### Resources
+
+[LocalDate](https://docs.oracle.com/javase/8/docs/api/java/time/LocalDate.html), 
+[LocalTime](https://docs.oracle.com/javase/8/docs/api/java/time/LocalTime.html), 
+[LocalDateTime](https://docs.oracle.com/javase/8/docs/api/java/time/LocalDateTime.html), 
+[DateTimeFormatter](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html)
