@@ -1,10 +1,10 @@
 package algorithms.search;
 
-/* Searching for 2^31-1 integers within an array of 2^31-1:
- * 	- Linear Search      : 5665.5221ms
- * 	- Binary Search	     : 525.6086ms
- * 	- Jump Search	     : 377.8101ms
- * 	- Exponential Search : 300.1572ms
+/* Searching for 100k integers within an array of 100k:
+ *	- Exponential Search  :   15.0207ms
+ * 	- Binary Search       :   19.5392ms	
+ *	- Jump Search         :   52.1491ms
+ *	- Linear Search       : 2055.8263ms
  */
 
 public class BinarySearch {
