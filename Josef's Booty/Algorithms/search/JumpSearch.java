@@ -5,10 +5,12 @@ package algorithms.search;
  * 	falling back on a normal linear search.
  * 
  * 	Searching for 100k integers within an array of 100k:
- *		- Exponential Search  :   15.0207ms
- * 		- Binary Search       :   19.5392ms	
- *		- Jump Search         :   52.1491ms
- *		- Linear Search       : 2055.8263ms
+ * 		- Interpolation Search:   12.8052ms
+ *		- Exponential Search  :   13.7367ms
+ *		- Fibonacci Search    :   13.7406ms
+ *		- Binary Search       :   17.5785ms
+ *		- Jump Search         :   55.7152ms
+ *		- Linear Search       : 1967.8909ms
  *
  * 	O(block size) in this case O(sqrt(n))
  */
