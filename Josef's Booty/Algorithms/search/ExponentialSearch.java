@@ -4,7 +4,13 @@ package algorithms.search;
  * 	powers of two offer upper and lower bounds, between
  * 	which the element in question lies. Once this range
  * 	is found a simple binary search is used.
- * 
+ *	
+ *	Searching for 2^31-1 integers within an array of 2^31-1:
+ * 		- Linear Search		 : 5665.5221ms
+ * 		- Binary Search		 : 525.6086ms
+ * 		- Jump Search		 : 377.8101ms
+ * 		- Exponential Search : 300.1572ms
+ *
  * 	O(log index)
  */
 
