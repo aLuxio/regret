@@ -4,6 +4,12 @@ package algorithms.search;
  * 	that moves by more than one element at a time before
  * 	falling back on a normal linear search.
  * 
+ * 	Searching for 2^31-1 integers within an array of 2^31-1:
+ * 		- Linear Search	     : 5665.5221ms
+ * 		- Binary Search	     : 525.6086ms
+ * 		- Jump Search	     : 377.8101ms
+ * 		- Exponential Search : 300.1572ms
+ *
  * 	O(block size) in this case O(sqrt(n))
  */
 
