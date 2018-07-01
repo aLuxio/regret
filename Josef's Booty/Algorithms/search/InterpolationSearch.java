@@ -25,7 +25,7 @@ public class InterpolationSearch {
 	public static int interpolationSearch(int[] arr, int X) {
 		int lo = 0, hi = arr.length - 1;
 		while(lo < hi && arr[lo] <= X && arr[hi] >= X) {
-			int pos = lo + (((hi - lo) / (arr[hi] - arr[lo])) * (X - arr[lo]));
+			int pos = (int) (lo + ((((double) hi - lo) / (arr[hi] - arr[lo])) * (X - arr[lo])));
 			if(arr[pos] == X)
 				return pos;
 			if(arr[pos] < X)
