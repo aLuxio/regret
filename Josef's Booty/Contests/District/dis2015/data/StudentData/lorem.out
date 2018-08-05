@@ -1,0 +1,25 @@
+a: 0.75,beautiful 0.25,dawn
+beautiful: 0.67,sunset 0.33,man
+for: 1.00,a
+mistaken: 1.00,for
+sunset: 1.00,that
+that: 1.00,was
+was: 0.50,a 0.50,mistaken
+
+ever: 1.00,i
+i: 0.50,would 0.25,leave 0.25,will
+if: 0.67,i 0.33,ever
+leave: 0.50,you 0.33,too 0.17,will
+never: 1.00,leave
+will: 0.50,leave 0.50,you
+would: 0.50,leave 0.50,never
+you: 0.67,leave 0.33,today
+
+him: 1.00,more
+loves: 0.71,me 0.14,him 0.14,you
+me: 0.40,not 0.40,she 0.20,or
+more: 1.00,than
+not: 1.00,she
+or: 1.00,she
+she: 1.00,loves
+than: 1.00,she
